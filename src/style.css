@@ -3,4 +3,30 @@ body {
     border: 1px solid black;
     margin-left: 25%;
     width: 1000px;
+    padding: 0 20px;
+}
+
+div {
+    text-align: justify;
+}
+
+div.text span {
+    font-weight: bold;
+}
+
+p > span > span  {
+    text-transform: uppercase;
+    color: red;
+}
+
+p > span + span {
+    color: green;
+}
+
+p + p > span {
+    color: red;
+}
+
+p + p > span + span {
+    color: blue;
 }
