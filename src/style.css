@@ -1,0 +1,26 @@
+div {
+    width: 1000px;
+    text-align: justify;
+    margin-left: 25%;
+}
+
+div.text span {
+    font-weight: bold;
+}
+
+p > span > span  {
+    text-transform: uppercase;
+    color: red;
+}
+
+p > span + span {
+    color: green;
+}
+
+p + p > span {
+    color: red;
+}
+
+p + p > span + span {
+    color: blue;
+}
